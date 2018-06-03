@@ -1,0 +1,24 @@
+{
+  "name": "graphql_json_server",
+  "version": "1.0.0",
+  "description": "Learn how to generate random json data to test your Graphql scheme using using JSON server and Mockaroo.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emeka-osuagwu/graphql_json_server.git"
+  },
+  "keywords": [
+    "Graphql",
+    "Mockaroo",
+    "node"
+  ],
+  "author": "Emeka Osuagwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emeka-osuagwu/graphql_json_server/issues"
+  },
+  "homepage": "https://github.com/emeka-osuagwu/graphql_json_server#readme"
+}
