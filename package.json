@@ -4,7 +4,9 @@
   "description": "Learn how to generate random json data to test your Graphql scheme using using JSON server and Mockaroo.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "js-server": "json-server --watch db.json",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/emeka-osuagwu/graphql_json_server/issues"
   },
-  "homepage": "https://github.com/emeka-osuagwu/graphql_json_server#readme"
+  "homepage": "https://github.com/emeka-osuagwu/graphql_json_server#readme",
+  "dependencies": {
+    "nodemon": "^1.17.5"
+  }
 }
