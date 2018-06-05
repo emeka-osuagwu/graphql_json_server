@@ -8,6 +8,7 @@ const {
 	GraphQLSchema,
 } = graphql;
 
+// create now User type
 const UserType = new GraphQLObjectType({
 	name: 'User',
 	fields: () => ({
@@ -20,6 +21,7 @@ const UserType = new GraphQLObjectType({
 	})
 })
 
+// Create a root query for the schema
 const RootQuery = new GraphQLObjectType({
 	name: 'RootQueryType',
 	fields: {
@@ -34,6 +36,7 @@ const RootQuery = new GraphQLObjectType({
 	}
 })
 
+// export module
 module.exports = new GraphQLSchema({
 	query: RootQuery
 });
